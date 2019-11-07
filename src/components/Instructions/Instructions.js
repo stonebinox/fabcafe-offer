@@ -10,7 +10,7 @@ export class Instructions extends Component {
                     <div className="col-sm-4">
                         <h3 className="text-center">Instructions to get this:</h3>
                         <ul className="list-group">
-                            <li className="list-group-item">Take a selfie or a photo and mention us/tag us in your Instagram/Facebook story or photo.</li>
+                            <li className="list-group-item">Take a selfie or a photo and mention us/tag us in your <a href="https://www.instagram.com/fab_cafe/" title="Instagram">Instagram</a>/<a href="https://www.facebook.com/fabcafeblr/" title="Facebook">Facebook</a> story or photo.</li>
                             <li className="list-group-item">This offer is valid for mininimum purchases of Rs. 250 and above.</li>
                         </ul>
                     </div>

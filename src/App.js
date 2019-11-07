@@ -3,6 +3,7 @@ import './App.sass';
 import { Hero } from './components/Hero/Hero';
 import { Offer } from './components/Offer/Offer';
 import { Instructions } from './components/Instructions/Instructions';
+import { Copyright } from './components/Copyright/Copyright';
 
 class App extends Component {
   offers = [
@@ -50,6 +51,7 @@ class App extends Component {
         <Hero />
         <Offer offer={this.getOffer()} />
         <Instructions />
+        <Copyright />
       </div>
     );
   }
