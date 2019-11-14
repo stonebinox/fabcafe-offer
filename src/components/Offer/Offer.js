@@ -13,8 +13,9 @@ export class Offer extends Component {
     render() {
         return (
             <div className="offer">
-                <p className="lead text-center">Exclusive offer for you is ...</p>
-                <div className="offer-text">{this.props.offer}*</div>
+                <h2 className="text-center">Meese Habba is on the 22nd, 23rd, and 24th of November!</h2>
+                <p className="lead text-center">Exclusive offer for you that weekend is ...</p>
+                <div className="offer-text">{this.props.offer}</div>
             </div>
         );
     }
