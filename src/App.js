@@ -10,7 +10,8 @@ class App extends Component {
     '20% off',
     'Free Onion Chips',
     'Free King Of The Ring',
-    'Free Classic French Fries'
+    'Free Classic French Fries',
+    'Free Peri Peri Fries',
   ];
 
   constructor(props) {
